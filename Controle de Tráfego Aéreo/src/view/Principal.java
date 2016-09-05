@@ -138,7 +138,48 @@ public class Principal {
 				}
 				else if(opcao==4)
 				{
+					System.out.println("\nEscrever todas as informações de um avião na tela.");
 					
+					if (opcaoAviao==1)
+					{
+						System.out.println("\nModelo: " + aviao1.getModelo());
+						System.out.println("Ano fabricação: " + aviao1.getAnoFabric());
+						System.out.println("Velocidade atual: " + aviao1.getVelocidadeAtual());
+						System.out.println("Atitude atual: " + aviao1.getAltitudeAtual());
+						System.out.println("Direção: " + aviao1.getDirecao());
+						System.out.println("Transportadora: " + aviao1.getTransportadora());
+						System.out.println("Hora da partida: " + aviao1.getHoraPartida());
+						System.out.println("Hora de chegada: " + aviao1.getHoraChegada());
+						System.out.println("Origem: " + aviao1.getOrigem());
+						System.out.println("Destino: " + aviao1.getDestino());
+						System.out.println("Status: " + aviao1.getStatus());
+					}else if (opcaoAviao==2)
+					{
+						System.out.println("\nModelo: " + aviao2.getModelo());
+						System.out.println("Ano fabricação: " + aviao2.getAnoFabric());
+						System.out.println("Velocidade atual: " + aviao2.getVelocidadeAtual());
+						System.out.println("Atitude atual: " + aviao2.getAltitudeAtual());
+						System.out.println("Direção: " + aviao2.getDirecao());
+						System.out.println("Transportadora: " + aviao2.getTransportadora());
+						System.out.println("Hora da partida: " + aviao2.getHoraPartida());
+						System.out.println("Hora de chegada: " + aviao2.getHoraChegada());
+						System.out.println("Origem: " + aviao2.getOrigem());
+						System.out.println("Destino: " + aviao2.getDestino());
+						System.out.println("Status: " + aviao2.getStatus());
+					}else if (opcaoAviao==3)
+					{
+						System.out.println("\nModelo: " + aviao3.getModelo());
+						System.out.println("Ano fabricação: " + aviao3.getAnoFabric());
+						System.out.println("Velocidade atual: " + aviao3.getVelocidadeAtual());
+						System.out.println("Atitude atual: " + aviao3.getAltitudeAtual());
+						System.out.println("Direção: " + aviao3.getDirecao());
+						System.out.println("Transportadora: " + aviao3.getTransportadora());
+						System.out.println("Hora da partida: " + aviao3.getHoraPartida());
+						System.out.println("Hora de chegada: " + aviao3.getHoraChegada());
+						System.out.println("Origem: " + aviao3.getOrigem());
+						System.out.println("Destino: " + aviao3.getDestino());
+						System.out.println("Status: " + aviao3.getStatus());
+					}
 				}
 				
 			}else if(opcao==5)
