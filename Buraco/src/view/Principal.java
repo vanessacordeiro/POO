@@ -60,12 +60,12 @@ public class Principal {
 		System.out.println("|========== ♣ ==== ♠ ====  CARTAS PARA BURACO!  ==== ♥ ==== ♦ ==========|" );
 		System.out.println("|=======================================================================|" );
 		
-		System.out.printf("\n|                   Quatro jogadores para duas duplas!!!                |"
+		/*System.out.printf("\n|                   Quatro jogadores para duas duplas!!!                |"
 						+ "\n|                           O que deseja fazer?                         |"
 						+ "\n|                     1 - Gerar as duplas sortidas                      |"
 						+ "\n|                     2 - Criar as duplas                               |" 
 						+ "\n|... ");
-		
+		*/
 		Principal inicio = new Principal(); 
 		System.out.printf("\n");
 		inicio.printCartas();
